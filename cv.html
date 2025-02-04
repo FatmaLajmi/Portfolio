@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My cv</title>
+</head>
+
+<body>
+    <nav id="nav">
+        <ul type="square">
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#about">About me</a>
+            </li>
+            <li>
+                <a href="#work">My projects</a>
+            </li>
+            <li>
+                <a href="#exp">Experiences</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="about">
+        <h1>
+            About me
+        </h1>
+        <p style="text-align: justify;">My name is Fatma, and I'm passionate about technology and innovation, always
+            looking for new challenges to
+            take on. As a computer engineering student, I enjoy exploring various fields, from programming and databases
+            to artificial intelligence. My journey is also shaped by associative and entrepreneurial experiences, where
+            I've learned the importance of teamwork, creativity, and social impact. Curious and determined, I'm
+            constantly seeking to learn and grow—whether through my studies, projects, or the opportunities I embrace
+        </p>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <div id="work">
+        <h1>
+            My projects
+        </h1>
+
+        <ol>
+            <li>
+                <h3>Video editing</h3>
+            </li><br>
+            <video controls width="400">
+                <source src="video.mp4" alt="Teaser video" type="video/mp4">
+            </video>
+            <li>
+                <h3>Website</h3>
+            </li>
+            <img src="site1.png" alt="Image of the Website" controls width="400">
+
+
+        </ol>
+    </div>
+    <div id="exp">
+        <h1>My experiences</h1>
+        <table border="1">
+            <tr>
+                <th>Experience</th>
+                <th>Date</th>
+                <th>Outcome</th>
+            </tr>
+            <tr>
+                <td>Internship at BIAT IT</td>
+                <td>2024</td>
+                <td>enhanced my technical skills in IT infrastructure and deepened my understanding of teamwork and
+                    professional collaboration</td>
+            </tr>
+            <tr>
+                <td>Member of IEEE</td>
+                <td>Present</td>
+                <td>expanded my knowledge of engineering trends and connected me with a network of professionals</td>
+            </tr>
+            <tr>
+                <td>RH at TIMUN LPM8</td>
+                <td>2021</td>
+                <td>helped me develop leadership skills and a deeper understanding of team dynamics and organizational
+                    management</td>
+            </tr>
+        </table>
+    </div>
+    <div id="contact">
+        <h1>Contact me</h1>
+        <form method="post">
+            <div>
+                <label for="name:">Name: </label><br>
+                <input type="text">
+            </div>
+            <br>
+            <div>
+                <label for="prenom:">Family name: </label><br>
+                <input type="text">
+
+            </div><br>
+            <div>
+                <label for="email:">Email: </label><br>
+                <input type="email">
+            </div><br>
+            <div>
+                <label for="password:">Password: </label><br>
+                <input type="password">
+            </div><br>
+            <div>
+                <label for="birthday:">Birthday: </label><br>
+                <input type="date">
+            </div><br>
+            <div>
+                <label for="age:">Age: </label><br>
+                <input type="number">
+            </div><br>
+            <div>
+                <label for="field">Field</label><br>
+                <select name="field" id="field">
+                    <option value="Computer science">Computer science</option>
+                    <option value="Biology">Biology</option>
+                    <option value="Law">Law</option>
+                    <option value="Else">else</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="newsletter:">Do you waqnt to receive our latest news? </label>
+                <input type="checkbox" id="newsletter">
+            </div>
+            <div>
+                <p>Gender: </p>
+                <label for="male:">male </label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="female:">female </label>
+                <input type="radio" id="female" name="gender" value="female">
+
+            </div><br>
+            <div>
+                <label for="message:">Message: </label><br>
+                <textarea rows="4" cols="50"></textarea>
+            </div><br>
+
+            <div>
+                <button>Submit</button>
+                <button>Cancel</button>
+            </div>
+
+
+
+
+        </form>
+
+    </div>
+    <footer>
+        <p>© 2025 My cv. All rights reserved</p>
+        <a href="#nav">Go back to the top</a>
+    </footer>
+
+</body>
+
+</html>
